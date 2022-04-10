@@ -1,0 +1,44 @@
+.leaflet-popup-content-wrapper
+{
+  border-radius: 3px!important;
+}
+
+.popup
+{
+  width: 1200px;
+  height: 650px;
+
+  h3
+  {
+    text-align: center;
+    font-weight: bold;
+    color: $color-black;
+  }
+
+  .text-container
+  {
+    margin: 10px 0;
+    display: inline-flex;
+    width: 380px;
+    justify-content: space-between;
+
+    p
+    {
+      margin: 5px 0 0 0;
+      font-size: 16px;
+    }
+  }
+}
+
+#chart1
+{
+  width: 100%;
+  height: 550px;
+}
+
+.not-found
+{
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+}
